@@ -30,3 +30,4 @@ gastown.womens_apparel = false
 gastown.save
 
 
+puts Store.all.count
