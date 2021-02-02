@@ -37,7 +37,7 @@ yaletown.save
   puts "#{store.name}, #{store.annual_revenue}"
 end
 
-@womens_stores = Store.where("womens_apparel = true AND annual_revenue < 1000000",)
+@womens_stores = Store.where("womens_apparel = true AND annual_revenue < 1000000")
 
 @womens_stores.each do |store|
   puts "#{store.name}, #{store.annual_revenue}"
